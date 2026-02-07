@@ -1,0 +1,20 @@
+﻿# dependencies
+node_modules/
+
+# build artifacts
+.next/
+out/
+
+# env and secrets
+.env
+.env.*
+!.env.example
+
+# local tooling
+.claude/
+.playwright-mcp/
+
+# misc
+nul
+.DS_Store
+Thumbs.db
